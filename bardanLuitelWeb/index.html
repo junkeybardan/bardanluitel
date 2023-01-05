@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="portfolio website of bardan luitel. A student, Android Developerr."
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- THEME PREFERS  -->
+		<meta name="color-scheme" content="dark light" />
+
+		<!-- FAVICON -->
+		<link rel="shortcut icon" href="images/dp.jpg" type="image/x-icon" />
+
+		<title>Bardan luitel</title>
+
+		<!-- GOOGLE FONTS  -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Ubuntu:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- FONT AWESOME  -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- CSS  -->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body id="body">
+		<!--
+       HEADER 
+     -->
+		<header class="header">
+			<div class="header__nav-container wrapper container">
+				<!-- logo  -->
+				<a href="#" class="logo">BL</a>
+
+				<nav id="header__nav">
+					<ul class="nav-list">
+						<li><a href="#" class="active">HOME</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</nav>
+
+				<!-- theme buttons  -->
+				<div class="header__nav-container__theme-btns">
+					<button id="dark-theme-toggle" class="icons" title="Dark Theme">
+						<i class="fa-solid fa-sun"></i>
+					</button>
+
+					<button
+						id="light-theme-toggle"
+						class="icons hidden"
+						title="Light Theme"
+					>
+						<i class="fa-solid fa-moon"></i>
+					</button>
+
+					<button
+						id="open-menu"
+						class="icons hidden"
+						aria-label="open-menu"
+						title="Open Menu"
+					>
+						<i class="fa-solid fa-bars"></i>
+					</button>
+
+					<button
+						id="close-menu"
+						class="icons hidden"
+						aria-label="close-menu"
+						title="Close Menu"
+					>
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+					<!-- end of header__nav-container__theme-btns -->
+				</div>
+			</div>
+		</header>
+
+		<!--
+       MAIN 
+     -->
+		<main class="main container">
+			<div class="hero-lefside">
+				<h2 class="section-title">Hey!</h2>
+				<h1>I am <span class="accent">bardan luitel</span>.</h1>
+				<p>
+					I am Bardan luitel . I am a Bachelor in Science and Information Technology  ( BScIT )
+					student from Nepal who is currently studying in India. Coding has been my passion after I got to know about its perks in the society.
+				</p>
+				<button class="btn"> Contact Me </button>
+			</div>
+
+			<div class="hero-rightside">
+				<img src="images/hero-bg.png" alt="" />
+			</div>
+		</main>
+		<!-- 
+			SKILLS PROGRESS
+		 -->
+		<section class="my-skills container">
+			<h2 class="section-title">I <span class="accent">can</span> Speak</h2>
+
+			<div class="progress-container">
+				<!-- progress -card - 1 of many -->
+				<div class="progress-card">
+					<label for="html">ANDROID</label>
+					<div class="progress-width" name="html">
+						<div class="progress-value" data-value="60"></div>
+					</div>
+				</div>
+
+				<div class="progress-card">
+					<label for="css">JAVA</label>
+					<div class="progress-width" name="css">
+						<div class="progress-value" data-value="70"></div>
+					</div>
+				</div>
+
+				<div class="progress-card">
+					<label for="tailwind">C++</label>
+					<div class="progress-width" name="tailwind">
+						<div class="progress-value" data-value="60"></div>
+					</div>
+				</div>
+
+				<div class="progress-card">
+					<label for="javascript">PYTHON</label>
+					<div class="progress-width" name="javascript">
+						<div class="progress-value" data-value="50"></div>
+					</div>
+				</div>
+
+				<div class="progress-card">
+					<label for="react">MYSQL</label>
+					<div class="progress-width" name="react">
+						<div class="progress-value" data-value="80"></div>
+					</div>
+				</div>
+
+				<div class="progress-card">
+					<label for="ui/ux">FLUTTER</label>
+					<div class="progress-width" name="ui/ux">
+						<div class="progress-value" data-value="60"></div>
+					</div>
+				</div>
+			</div>
+			<!-- end of progress container -->
+		</section>
+
+		<!--
+			 MY PROJECTS 
+		 -->
+		<section class="my-projects container">
+			<h2 class="section-title">My <span class="accent">Pro</span>jects</h2>
+
+			<div class="projects-placeholder">
+				<p>
+					More to go!!
+				</p>
+
+				<p>
+					Coming soon...
+				</p>
+			</div>
+		</section>
+
+		<!-- 
+			PROTFOLIO 
+		 -->
+		<section class="portfolio">
+			<div class="portfolio__wrapper container">
+				<!-- aside > about-me & social-links  -->
+				<aside class="portfolio__aside">
+					<img src="images/dp.jpg" alt="A Picture of Me" />
+					<h2 class="section-title">About <span class="accent">Me</span></h2>
+					<p>
+						Can be called as a good learner as well as tech enthusiast. Problem solver as well as Techy guy. Interested in
+						learning new things as much as possiblle.
+					</p>
+					<div class="portfolio__social-links__container">
+						<h2 class="section-title">
+							So<span class="accent">ci</span>al Li<span class="accent">nk</span
+							>s
+						</h2>
+						<div class="porfolio__social-links__container__social-icons">
+							<a href="https://www.facebook.com/bardan07"target="_blank">
+								<i class="fa-brands fa-facebook"></i>Bardan luitel
+							</a>
+							<a href="https://github.com/junkeybardan"target="_blank">
+								<i class="fa-brands fa-github"></i>Junkey Bardan
+							</a>
+							<a href="https://www.linkedin.com/in/bardanluitel" target="_blank">
+								<i class="fa-brands fa-linkedin"></i>Bardan Luitel
+							</a>
+						</div>
+					</div>
+				</aside>
+
+				<!-- main portfolio -->
+				<div class="portfolio__rightside">
+					<div class="portfolio__rightside__personal-details">
+						<!-- my name & job  -->
+						<div class="portfolio__rightside__personal-details__intro">
+							<p class="myname"><span class="accent-dark">B</span>ardan</p>
+							<p class="myname"><span class="accent-dark">L</span>uitel</p>
+							<p class="job">Android Developer</p>
+						</div>
+
+						<!-- my-address,phone,email,web  -->
+						<div class="portfolio__rightside__personal-details__address">
+							<p>
+								<i class="fa-solid fa-location-dot"></i>Dhulabari, Province 1, Nepal
+							</p>
+							<p><i class="fa-solid fa-phone"></i>+977-9825952243</p>
+							<p><i class="fa-solid fa-phone"></i>+91-9957227973</p>
+							<p><i class="fa-solid fa-at"></i>bardanluitel@gmail.com</p>
+							<p><i class="fa-solid fa-globe"></i>bardanluitel.com.np</p>
+						</div>
+						<!-- end of perosonal-details container -->
+					</div>
+
+					<hr />
+
+					<!-- my-education  -->
+					<div class="portfolio__rightside__education-details">
+						<p class="subtitle"><span class="accent-dark">Edu</span>cation</p>
+						<div class="about-me__edu-colleges">
+							<!-- University -->
+							<div class="college">
+								<div class="college_title">
+									<p class="strong">Assam Down Town University</p>
+									<small>Guwahati, Assam</small>
+									<p><em>2021-present</em></p>
+								</div>
+								<div class="college-description">
+									<p class="strong">Bachelor in Science and Information Technology (BscIT) </p>
+									<p>
+										This is where I found what i wanted to be. I got new friends
+										to whom I look up to. And also learned that Colleges are
+										just for certificate. If you want to be skillful, you are on
+										your own.
+									</p>
+								</div>
+							</div>
+
+							<!-- primary school -->
+							<div class="college">
+								<div class="college_title">
+									<p class="strong">Sharda Shishu Sadan</p>
+									<small>Dhulabari</small>
+									<p><em>2006-2017</em></p>
+								</div>
+
+								<div class="college-description">
+									<p class="strong">Grade 10</p>
+									<p>
+										I learned to learn there. It's the foundation that created
+										my existence. This school gave me friends who are still with
+										me.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end of education div  -->
+
+					<!-- my-experience -->
+					<div class="portfolio__rightside__experience-details">
+						<p class="subtitle"><span class="accent-dark">Exp</span>erience</p>
+						<div class="about-exp">
+						
+							<div class="work">
+
+								<div class="work_title">
+									<p class="strong">Freshers</p>
+									<p>Online</p>
+									<p><em>2021-present</em></p>
+								</div>
+
+								<div class="work-description">
+									<p class="strong">Blank🤐</p>
+									<p>
+										Just surfing the internet knowing it's more than my dark room.
+									</p>
+								</div>
+							</div>
+				
+							</div>
+						</div>
+						<!-- end of experience div -->
+					</div>
+				</div>
+			</div>
+			<!-- end of portfoilo__wrapper-->
+		</section>
+
+		<!-- FOOTER  -->
+		<footer class="footer">
+			<div class="footer__wrapper container">
+				<div class="footer__message-me">
+					<p class="logo accent">
+						<span class="accent">B</span>ardan
+						<span class="accent">L</span>uitel
+					</p>
+					<p>
+						Find me across the internet or send send a message to say hi maybe.
+						But the catch is this button doesn't work.
+					</p>
+					<input type="text" placeholder="Write a message..." />
+					<button>Say Hi</button>
+				</div>
+
+				<div class="footer__permalinks">
+					<ul class="footer__permalinks-nav nav-list">
+						<li><a href="#" class="active">HOME</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__terms-conditions">
+					<ul>
+						<li>Privacy Policy</li>
+						<li>Terms & Conditions</li>
+					</ul>
+				</div>
+
+				<div class="footer__social-icons">
+					<a href="https://www.facebook.com/bardan07"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://github.com/junkeybardan"target="_blank"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/bardanluitel"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+			</div>
+
+			<div class="footer__copyright">
+				<p>&copy; Copyright 2022. bardan luitel. All rights not reserved.</p>
+			</div>
+		</footer>
+
+		<!-- JAVASCRIPT  -->
+		<script src="script.js"></script>
+	</body>
+</html>
